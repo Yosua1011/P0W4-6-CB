@@ -44,12 +44,15 @@ function ProductDigits(num) {
             }
         }
     }
-    console.log(answers)
+  
     answers.sort(function(a,b){
        return a-b;
     });  
+  console.log(answers);
     return answers.shift().toString().length;
 }
    
 // keep this function call here 
-console.log(ProductDigits(20));   
+console.log(ProductDigits(5000));
+    
+
