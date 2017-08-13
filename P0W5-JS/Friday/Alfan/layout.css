@@ -1,0 +1,85 @@
+/* CSS Document */
+ 
+body
+{
+display:none;
+}
+#wrap
+{
+width:700px;
+height:500px;
+background:url(../images/bg.gif) repeat-x;
+position:absolute;
+overflow:hidden;
+ 
+}
+ 
+#floor
+{
+width:700px;
+height:93px;
+background:url(../images/floorTile.jpg) repeat-x;
+position:absolute;
+bottom:0px;
+display:none;
+}
+ 
+#player
+{
+width:91px;
+height:133px;
+background:url(../images/mario.png) repeat-x;
+position:absolute;
+bottom:93px;
+left:100px;
+display:none;
+}
+ 
+.coin
+{
+width:44px;
+height:58px;
+background:url(../images/coin.png) no-repeat;
+position:absolute;
+z-index:99;
+bottom: 250px;
+left:700px;
+}
+ 
+#scoreBox
+{
+width:411px;
+height:70px;
+position:absolute;
+top:-10px;
+right:0px;
+overflow:hidden;
+background:url(../images/scoreBacking.png);
+display:none;
+ 
+}
+#scoreBox p
+{
+font-family:Verdana, Geneva, sans-serif;
+color:#FFF;
+font-size:30px;
+ 
+font-weight:bold;
+text-shadow: 1px 1px 1px #333333;
+-moz-text-shadow: 1px 1px 1px #333333;
+-webkit-text-shadow: 1px 1px 1px #333333;
+left:150px;
+top:-10px;
+position:absolute
+ 
+}
+ 
+#titleScreen
+{
+background:url(../images/title.jpg) no-repeat;
+width:700px;
+height:500px;
+z-index:999;
+}
+ 
+&nbsp;

@@ -53,4 +53,4 @@ function DashInsert(str) {
 }
    
 // keep this function call here 
-DashInsert(readline());
+console.log(DashInsert('99946'));

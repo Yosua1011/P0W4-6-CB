@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	background-color: #2c3e50;
+	color: #fff;
+
+	font-family: sans-serif;
+}
+
+#game-wrapper {
+	margin: auto;
+	width: 500px;
+	height: auto;
+	background-color: #2c3e50;
+}
+
+.road {
+	margin: auto;
+	font-size: 0;
+	background-color: #95a5a6;
+}
+
+.pixel {
+	display: inline-block;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+h1#title {
+	margin: 8px;
+	color: #f1c40f;
+}
+
+h2, h4 {
+	margin: 4px;
+}
+
+.score-panel, .high-score-panel, #instruction, #title {
+	text-align: center;
+}
