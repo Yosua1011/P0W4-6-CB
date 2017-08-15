@@ -1,11 +1,11 @@
 function findMax(arrNum) {
 	// arrNum.sort(function(a,b){return a-b})
 	// return arrNum[arrNum.length-1];
-	return Math.max(...arrNum); //spreadsheet syntax
+	return Math.max(...arrNum); //spread operator syntax
 }
 
 function findMin(arrNum) {
-	return Math.min(...arrNum); //spreadsheet syntax
+	return Math.min(...arrNum); //spread operator syntax
 }
 
 function findOdds(arrNum) {
