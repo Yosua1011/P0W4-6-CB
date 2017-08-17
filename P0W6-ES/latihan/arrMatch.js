@@ -1,15 +1,25 @@
 function ArrayMatching(strArr) { 
-  
-  var firstArrayNoBrackets = strArr[0].replace(/\[+(.*?)\]+/g,"$1");
-  var secondArrayNoBrackets = strArr[1].replace(/\[+(.*?)\]+/g,"$1");
+//   // ArrayMatching(["[1, 2, 1]", "[2, 1, 5, 2]"]);//"3-3-6-2"
+//   var res = input
+//   .map(str => str
+//        .replace('[', '')
+//        .replace(']', '')
+//        .split(',')
+//        .map(val => parseInt(val)));
 
-  console.log(firstArrayNoBrackets);
-  console.log(typeof firstArrayNoBrackets);
-  console.log(secondArrayNoBrackets);
-  console.log(typeof secondArrayNoBrackets);
+// console.log(res)
   
-  var splittedFirstArray = firstArrayNoBrackets.split(",");
-  var splittedSecondArray = secondArrayNoBrackets.split(",");
+  var berubah = strArr.map(str => str.replace('[','').replace(']','').split(',').map(val => parseInt(val)));
+
+  // var secondArrayNoBrackets = strArr[1].replace(/\[+(.*?)\]+/g,"$1");
+
+  // console.log(firstArrayNoBrackets);
+  // console.log(typeof firstArrayNoBrackets);
+  // console.log(secondArrayNoBrackets);
+  // console.log(typeof secondArrayNoBrackets);
+  
+  var splittedFirstArray = berubah[0];
+  var splittedSecondArray = berubah[1];
   
   var parsedArrayOne = []; 
   var parsedArrayTwo = [];
